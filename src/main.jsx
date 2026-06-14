@@ -19,7 +19,7 @@ function Header() {
   return (
     <header className="siteHeader">
       <a className="brand" href="#home">
-        <img src="/world-savers-logo.svg" alt="The World Savers" className="brandLogo" />
+        <img src="/theworldsavers-logo.png" alt="The World Savers" className="brandLogo" />
       </a>
       <nav>
         <a href="#programs">Programs</a>
