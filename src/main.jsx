@@ -293,7 +293,7 @@ function ContactForm() {
       return;
     }
 
-    const { error: emailError } = await supabase.functions.invoke('send-contact-email', {
+    const { error: emailError } = await supabase.functions.invoke('resend-email', {
       body: submission,
     });
 
